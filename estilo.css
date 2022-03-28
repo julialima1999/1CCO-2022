@@ -1,0 +1,48 @@
+/* Começo do cabeçalho */
+body {
+    margin: 0;
+    background: black;
+    font-family: monospace;
+}
+
+.header{
+    border-bottom: 3px solid #32b9cd;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.header .container{
+    justify-content: space-between;
+    border: 3px solid blue;
+}
+
+.header ul #aqui {
+    font-weight: 800;
+}
+
+ul {
+    color: #e3b062;
+}
+
+.titulo {
+    color: #32b9cd;
+    width: fit-content;
+    border: 3px solid red;
+    font-weight: 500;
+}
+
+.navBar {
+    width: 300px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 3px solid green;
+}
+
+/* Fim do cabeçalho */
